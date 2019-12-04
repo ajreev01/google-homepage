@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+div.container {
+  margin: 200px auto;
+  padding: 20px 0;
+  width: 70%;
+}
+
+div h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+div.search-area {
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+}
+
+div input {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 8px;
+  width: 100%;
+}
+
+div .fa-search {
+  color: lightgrey;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+div.button-group {
+  margin-top: 20px;
+  text-align: center;
+}
+
+div button {
+  background: lightgrey;
+  border: none;
+  font-size: 14px;
+  margin-right: 8px;
+  padding: 8px 14px;
+}
+
+
+div.announcement {
+  margin: 10px auto 0px auto;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  width: 600px;
+}
+
+div .fa-shopping-bag {
+  color: lightgray;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 4px;
+}
+div .message {
+  display: inline-block;
+}
+
+div input:hover {
+  box-shadow: -1px 2px 10px lightgrey;
+  cursor: pointer;
+}
+
+div button:hover {
+  background: #e6e6e6;
+  box-shadow: -1px 2px 16px grey;
+  cursor: pointer;
+}
